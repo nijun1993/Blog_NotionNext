@@ -30,7 +30,7 @@ const CONFIG_NEXT = {
   WIDGET_TOC: true, // 移动端显示悬浮目录
 
   ARTICLE_SHARE: false, // 文章分享功能
-  ARTICLE_RELATE_POSTS: true, // 相关文章推荐
+  ARTICLE_RELATE_POSTS: false, // 相关文章推荐
   ARTICLE_COPYRIGHT: true // 文章版权声明
 
 }
