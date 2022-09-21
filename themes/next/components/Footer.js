@@ -1,11 +1,12 @@
-// import React from 'react'
-// import BLOG from '@/blog.config'
-// import DarkModeButton from '@/components/DarkModeButton'
+import React from 'react'
+import BLOG from '@/blog.config'
+import DarkModeButton from '@/components/DarkModeButton'
 
-// const Footer = ({ title }) => {
-//   const d = new Date()
-//   const currentYear = d.getFullYear()
-//   const startYear = BLOG.SINCE && BLOG.SINCE !== currentYear && BLOG.SINCE + '-'
+const Footer = ({ title }) => {
+  const d = new Date()
+  const currentYear = d.getFullYear()
+  const startYear = BLOG.SINCE && BLOG.SINCE !== currentYear && BLOG.SINCE + '-'
+  return ""
 //   return (
 //     <footer
 //       className='dark:bg-gray-900 flex-shrink-0 justify-center text-center m-auto w-full leading-6 text-sm p-6 dark:text-gray-400'
@@ -26,6 +27,6 @@
 //       </span>
 //     </footer>
 //   )
-// }
+}
 
 export default Footer
