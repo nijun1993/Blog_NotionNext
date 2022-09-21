@@ -22,9 +22,9 @@ const TocDrawer = ({ post, cRef }) => {
   }
   const { locale } = useGlobal()
   return <>
-    <div className='fixed top-0 right-0 z-40 '>
+    {/* <div className='fixed top-0 right-0 z-40 '> */}
       {/* 侧边菜单 */}
-      <div
+      {/* <div
         className={(showDrawer ? 'animate__slideInRight ' : ' -mr-72 animate__slideOutRight') +
         ' shadow-card animate__animated animate__faster ' +
         ' w-60 duration-200 fixed right-4 top-16 rounded py-2 bg-white dark:bg-gray-600'}>
@@ -38,10 +38,10 @@ const TocDrawer = ({ post, cRef }) => {
           </>
           }
       </div>
-    </div>
+    </div> */}
     {/* 背景蒙版 */}
-    <div id='right-drawer-background' className={(showDrawer ? 'block' : 'hidden') + ' fixed top-0 left-0 z-30 w-full h-full'}
-         onClick={switchVisible} />
+    {/* <div id='right-drawer-background' className={(showDrawer ? 'block' : 'hidden') + ' fixed top-0 left-0 z-30 w-full h-full'}
+         onClick={switchVisible} /> */}
   </>
 }
 export default TocDrawer
