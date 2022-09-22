@@ -10,7 +10,8 @@ let windowTop = 0
  * @returns {JSX.Element}
  * @constructor
  */
-// const StickyBar = ({ children }) => {
+const StickyBar = ()
+//   { children }) => {
 //   if (!children) return <></>
 //   const scrollTrigger = useCallback(throttle(() => {
 //     if (CONFIG_NEXT.NAV_TYPE === 'normal') {
