@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import throttle from 'lodash.throttle'
 import { uuidToId } from 'notion-utils'
-import Progress from './Progress'
+// import Progress from './Progress'
 // import { cs } from 'react-notion-x'
 
 /**
@@ -60,7 +60,7 @@ const Toc = ({ toc }) => {
 
   return <div className='px-3'>
     <div className='w-full pb-1'>
-      <Progress />
+//       <Progress />
     </div>
     <div className='overflow-y-auto max-h-96 overscroll-none scroll-hidden' ref={tRef}>
       <nav className='h-full font-sans text-black dark:text-gray-300'>
