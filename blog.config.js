@@ -44,7 +44,7 @@ const BLOG = {
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'mail@nijun.work',
   CONTACT_WEIBO: '',
-  CONTACT_TWITTER: 'twitter.com/jun__ni',
+  CONTACT_TWITTER: 'www.twitter.com/jun__ni',
   CONTACT_GITHUB: '',
   CONTACT_TELEGRAM: '',
 
