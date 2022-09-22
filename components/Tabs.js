@@ -24,7 +24,7 @@ const Tabs = ({ className, children }) => {
   }
 
   if (count === 1) {
-    return <section className={'duration-200 ' + className}>
+    return <section className={'duration-100 ' + className}>
       {children}
     </section>
   }
@@ -39,7 +39,7 @@ const Tabs = ({ className, children }) => {
     <ul className='flex justify-center space-x-5 pb-4 dark:text-gray-400 text-gray-600'>
       {children.map((item, index) => {
         return <li key={index}
-                   className={(currentTab === index ? 'font-black border-b-2 border-red-400 text-red-400 animate__animated animate__jello ' : 'font-extralight cursor-pointer') + ' text-sm font-sans '}
+                   className={(currentTab === index ? 'font-black border-b-2 border-gray-400 text-gray-400 animate__animated animate__jello ' : 'font-extralight cursor-pointer') + ' text-sm font-sans '}
                    onClick={() => {
                      tabClickHandle(index)
                    }}>
